@@ -1,0 +1,48 @@
+.port {
+  max-width: 70rem;
+  margin: 4rem auto;
+  justify-content: center;
+}
+
+.port p{
+  font-size: 3rem;
+}
+
+.portItems p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.portItems .item{
+  background-image: url("../../assets/portfolio.png");
+  height: 15rem;
+  width: 14rem;
+}
+
+.itemContent{
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.itemContent .text{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0.5rem;
+}
+
+.image{
+  position: absolute;
+  z-index: -2;
+  
+}
+
+.image img{
+  height: 15rem;
+  width: 14rem;
+}

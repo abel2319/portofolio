@@ -1,0 +1,66 @@
+.about {
+  max-width: 70rem;
+  margin: 4rem auto;
+  justify-content: center;
+}
+
+.about p{
+  font-size: 3rem;
+}
+
+.content{
+  display: flex;
+  margin: 1rem 0 3rem 0;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.dash{
+  width: 150px;
+  border-top: 3px solid #1E90FF;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.text {
+  color:#1E90FF;
+}
+
+
+.skillsItems{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skillsItems .Item{
+  width: 10rem;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  background: #3D3E42;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillsItems .Item img{
+  width: 5rem;
+}
+
+.skillsItems .mongo img,
+.skillsItems .mysql img,
+.skillsItems .node img,
+.skillsItems .flask img,
+.skillsItems .sci img,
+.skillsItems .doc img{
+  width: 8rem;
+}
+
+.skillsItems .Item p{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
