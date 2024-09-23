@@ -1,6 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import './about.css';
+
 import python from '../../assets/Python.png';
 import c from '../../assets/C++.png';
 import bash from '../../assets/Bash.png';
@@ -43,7 +46,10 @@ const About = () => {
   ];
 
   const settings = {
+    className: "center",
+    centerMode: true,
     infinite: true,
+    centerPadding: "100px",
     slidesToShow: 4,
     slidesToScroll: 2,
     autoplay: true,
@@ -87,12 +93,14 @@ const About = () => {
       <div className="skills">
         <p>Mes compétences</p>
         <div className="skillsItems">
+          <Slider {...settings}>
             {skillsItems.map((skill, index) => (
               <div key={index} className="Item">
                 <img src={skill.img} alt={`${skill.name} logo`} />
                 <p>{skill.name}</p>
               </div>
             ))}
+          </Slider>
         </div>
         <p>...</p>
       </div>
