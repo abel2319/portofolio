@@ -1,0 +1,21 @@
+.expe {
+  max-width: 70rem;
+  margin: 4rem auto;
+  justify-content: center;
+}
+
+.expe p{
+  font-size: 3rem;
+}
+
+.expeItems {
+  display: flex;
+}
+
+.item {
+  display: flex;
+}
+
+.item .dotline .dot{
+  background-color: #1E90FF;
+}
