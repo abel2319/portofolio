@@ -17,6 +17,15 @@
   margin-top: 15px;
 }
 
+.expeItem .year{
+  width: 300px;
+  margin-top: 8px;
+}
+
+.expeItem .dotline{
+  margin-top: 8px;
+}
+
 .expeItem .dotline .dot{
   background: #1E90FF;
   width: 30px;
@@ -26,7 +35,7 @@
 }
 
 .expeItem .dotline .line {
-  border-left: solid 3px #e6e9ff;
+  border-left: solid 1px #e6e9ff;
   height: 85%;
   margin-top: 5px;
   margin-left: 13px;
@@ -34,6 +43,7 @@
 
 .expeItem .expeContent {
   margin-top: 0;
+  margin-left: 10px;
 }
 
 .expeItem .expeContent .expeItemTitle{
