@@ -9,14 +9,15 @@
 }
 
 .expeItems {
-  display: flex;
+  
 }
 
-.item {
+.expeItem {
   display: flex;
+  margin-top: 15px;
 }
 
-.item .dotline .dot{
+.expeItem .dotline .dot{
   background: #1E90FF;
   width: 30px;
   height: 30px;
@@ -24,6 +25,22 @@
   box-shadow: rgba(30, 144, 255, 0.25) 0px 54px 55px, rgba(30, 144, 255, 0.25) 0px -12px 30px, rgba(30, 144, 255, 0.25) 0px 4px 6px, rgba(30, 144, 255, 0.25) 0px 12px 13px, rgba(30, 144, 255, 0.25) 0px -3px 5px;
 }
 
-.item .dotline .line {
+.expeItem .dotline .line {
+  border-left: solid 3px #e6e9ff;
+  height: 85%;
+  margin-top: 5px;
+  margin-left: 13px;
+}
 
+.expeItem .expeContent {
+  margin-top: 0;
+}
+
+.expeItem .expeContent .expeItemTitle{
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.expeItem .expeContent p{
+  font-size: 1rem;
 }
