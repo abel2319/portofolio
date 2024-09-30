@@ -8,7 +8,7 @@ function Experience() {
       <div className="expeItems">
         <div className="expeItem">
           <div className="year">
-            Mars - Août 2024 (6 mois)
+            2024 <br />(6 mois)
           </div>
           <div className="dotline">
             <div className="dot"></div>
@@ -30,7 +30,7 @@ function Experience() {
         </div>
         <div className="expeItem">
           <div className="year">
-          Août - Sep 2023 (1 mois)
+          2023 <br />(1 mois)
           </div>
           <div className="dotline">
             <div className="dot"></div>
@@ -48,7 +48,7 @@ function Experience() {
         </div>
         <div className="expeItem">
           <div className="year">
-            Dec 2023 – Aujourd’hui (10 mois)
+            Depuis 2023 <br />(10 mois)
           </div>
           <div className="dotline">
             <div className="dot"></div>
@@ -62,8 +62,7 @@ function Experience() {
             • Formateur à la formation d’initiation à python pour la data science (visualisation avec Matplotlib, Seaborn) <br />
             • Mise en place du Site Web et du dashboard de la communauté DAH <br />
             • Administration de l’espace d’hébergement de la communauté (O2Switch) <br />
-            • Technologies : Python, Agile, JavaScript, React <br />
-            • <strong> Technologies </strong>: <em> JavaScript, NodeJS, TypeScript, JestJs</em> <br />
+            • <strong> Technologies </strong>: <em> Python, Agile, JavaScript, React </em> <br />
             </p>
           </div>
         </div>
