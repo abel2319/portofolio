@@ -4,6 +4,7 @@ import Navbar from './components/NabBar/navbar';
 import Intro from './components/Intro/intro';
 import About from './components/about/about';
 import Experience from './components/experiences/experience';
+import Contact from './components/contact/contact';
 import { Portfolio } from './components/portfolio/portfolio';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <About/>
         <Portfolio/>
         <Experience/>
+        <Contact/>
       </div>
     </Router>
   ) 
