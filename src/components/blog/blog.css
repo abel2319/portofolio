@@ -1,0 +1,13 @@
+.blog {
+  max-width: 70rem;
+  margin: 4rem auto;
+  justify-content: center;
+}
+
+.blog p{
+  font-size: 3rem;
+}
+
+.blogCont {
+  color: #1E90FF;
+}

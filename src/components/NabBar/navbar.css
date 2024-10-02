@@ -55,7 +55,31 @@
 }
 
 @media screen and (max-width:480px) {
+  .navbar{
+    height: 7rem;
+  }
   .logo{
-    height: 2rem;
+    height: 3rem;
+    width: 3rem;
+  }
+  .navMenu{
+    display: none;
+  }
+  .navBtn{
+    padding: 0 0.05rem;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+  .btnImg{
+    margin: 0.5rem;
   }
 }
+
+@media screen and (max-width:840px) {
+  .logo{
+    height: 3rem;
+  }
+}
+
+
+

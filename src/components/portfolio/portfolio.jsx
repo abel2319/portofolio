@@ -9,7 +9,7 @@ import dah from '../../assets/dah.jpeg'
 //https://github.com/abel2319/portofolio
 export const Portfolio = () => {
   return (
-    <div className='port'>
+    <div id='portfolio' className='port'>
       <p>Portfolio</p>
       <div className="portItems">
         <div className="item">

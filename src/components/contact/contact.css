@@ -8,23 +8,72 @@
     font-size: 3rem;
 }
 
+.cont .title {
+    display: flex;
+}
+
+.contDash{
+    width: 110px;
+    border-bottom: 7px solid #1E90FF;
+    margin-bottom: 1.2rem;
+    margin-right: 0.5rem;
+  }
+
 .cont i {
     color: white;
     width: 50px;
 }
 
+.contactItems{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: auto;
+    justify-content: center;
+}
+
 .contactItem {
     width: 40%;
-    height: 100px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    height: 80px;
+    box-shadow: 0 2px 10px rgba(30, 144, 255, 0.2);
     align-items: center;
     text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(119, 181, 243, 0.2);
+    margin: 0 0 30px 50px;
+}
+
+.contactItem:hover {
+    color: #1E90FF;
+    box-shadow: rgba(30, 144, 255, 0.25) 0px 54px 55px, rgba(30, 144, 255, 0.25) 0px -12px 30px, rgba(30, 144, 255, 0.25) 0px 4px 6px, rgba(30, 144, 255, 0.25) 0px 12px 13px, rgba(30, 144, 255, 0.25) 0px -3px 5px;
 }
 
 .contactItem p{
-    font-size: 1.75rem;
-    color: white;
+    font-size: 1.7rem;
     cursor: pointer;
-    margin: auto;
+    margin-top: auto;
 }
 
+@media screen and (max-width:840px) {
+    .contactItem {
+        width: 80%;
+    }
+    .contactItem p{
+        font-size: 1rem;
+    }
+    .contactItem img {
+        width: 16px;
+    }
+}
+  
+@media screen and (max-width:480px) {
+    .contactItem {
+        width: 80%;
+    }
+    .contactItem p{
+        font-size: 1rem;
+    }
+    .contactItem img {
+        width: 16px;
+    }    
+}

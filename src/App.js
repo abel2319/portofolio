@@ -6,6 +6,7 @@ import About from './components/about/about';
 import Experience from './components/experiences/experience';
 import Contact from './components/contact/contact';
 import { Portfolio } from './components/portfolio/portfolio';
+import Blog from './components/blog/blog';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About/>
         <Portfolio/>
         <Experience/>
+        <Blog/>
         <Contact/>
       </div>
     </Router>

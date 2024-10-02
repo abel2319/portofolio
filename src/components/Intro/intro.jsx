@@ -6,16 +6,20 @@ import { Link } from 'react-scroll'
 
 const Intro = () => {
   return (
-    <section className="intro">
+    <section id='home' className="intro">
       <div className="introContent">
         <span className="hello">Hello, </span>
         <span className="introText">
           I'm
           <span className="introName"> Abel KPOHINTO</span> <br/>
-          a Software Engineer and Data Scientist.
+          a Data Scientist.
         </span>
         <p className='introPara'>I am a problem solver, passionated about Math and Programming...</p>
-        <Link><button className="introBtn"><img src={cv} alt="MyResume" className='introImg'/> My Resume</button></Link>
+        <a href='https://drive.google.com/file/d/17h-SMWDBKW2tx-cY9se0ajFSo6PgnGn1/view?usp=sharing'>
+          <button className="introBtn"><img src={cv} alt="MyResume" className='introImg'/>
+            My Resume
+          </button>
+        </a>
       </div>
       <img src={abel} alt="profile" className='bg' />
     </section>

@@ -82,7 +82,7 @@ const About = () => {
   };
 
   return (
-    <div className='about'>
+    <div id='about' className='about'>
       <p>À propos</p>
       <div className="content">
         <div className="dash"></div>

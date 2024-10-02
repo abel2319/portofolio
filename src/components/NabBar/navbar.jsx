@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './navbar.css'
 import logo from '../../assets/logo.png'
 import contactImg from '../../assets/bubble-chat.png'
-import {Link} from 'react-scroll'
+import { IoClose, IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,15 +29,17 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? ' scrolled' : ''}`}>
       <img src={logo} alt="logo" className='logo'/>
       <div className="navMenu">
-        <Link className='navItem'>Home</Link>
-        <Link className='navItem'>À propos</Link>
-        <Link className='navItem'>Portfolio</Link>
-        <Link className='navItem'>Blog</Link>
+        <a href='#home' className='navItem'>Home</a>
+        <a href='#about' className='navItem'>À propos</a>
+        <a href='#portfolio' className='navItem'>Portfolio</a>
+        <a href='#blog' className='navItem'>Blog</a>
       </div>
-      <button className="navBtn">
-        <img src={contactImg} alt="" className='btnImg'/>
-        Contactez moi
-      </button>
+      <a href="#contact">
+        <button className="navBtn">
+          <img src={contactImg} alt="" className='btnImg'/>
+          Contactez moi
+        </button>
+      </a>
     </nav>
   )
 }
